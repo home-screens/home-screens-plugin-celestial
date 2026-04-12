@@ -1,0 +1,68 @@
+{
+  "id": "celestial",
+  "name": "Celestial Tracker",
+  "version": "1.3.0",
+  "description": "Beautiful sun and moon tracker with dynamic sky arc, moon phase visualization, and real-time celestial data. All calculations are client-side — no API key required.",
+  "author": "home-screens",
+  "license": "MIT",
+  "minAppVersion": "1.0.0",
+  "moduleType": "celestial",
+  "category": "Weather & Environment",
+  "icon": "Moon",
+
+  "defaultConfig": {
+    "showSkyArc": true,
+    "showMoonDetails": true,
+    "showSunDetails": true,
+    "units": "imperial"
+  },
+
+  "defaultSize": { "w": 400, "h": 650 },
+
+  "defaultStyle": {
+    "fontSize": 16,
+    "backgroundColor": "rgba(0,0,0,0.3)"
+  },
+
+  "configSchema": {
+    "type": "object",
+    "properties": {
+      "showSkyArc": {
+        "type": "boolean",
+        "title": "Show Sky Arc",
+        "ui:widget": "toggle",
+        "ui:group": "Display"
+      },
+      "showMoonDetails": {
+        "type": "boolean",
+        "title": "Show Moon Details",
+        "ui:widget": "toggle",
+        "ui:group": "Display"
+      },
+      "showSunDetails": {
+        "type": "boolean",
+        "title": "Show Sun Details",
+        "ui:widget": "toggle",
+        "ui:group": "Display"
+      },
+      "units": {
+        "type": "string",
+        "title": "Distance Units",
+        "enum": ["imperial", "metric"],
+        "enumLabels": ["Miles", "Kilometers"],
+        "ui:widget": "select",
+        "ui:group": "Display"
+      }
+    }
+  },
+
+  "exports": {
+    "component": "default",
+    "configSection": "ConfigSection"
+  },
+
+  "allowedDomains": [],
+  "permissions": [],
+  "dataRequirements": ["location"],
+  "secrets": []
+}

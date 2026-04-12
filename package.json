@@ -1,0 +1,15 @@
+{
+  "name": "hs-plugin-celestial",
+  "version": "1.3.0",
+  "description": "Celestial tracker plugin for Home Screens — sun/moon tracking with dynamic sky arc, NASA moon photo, and real-time astronomical data",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite build && (vite build --watch & npx -y serve@latest . -l 5173 --cors --no-clipboard)",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "vite": "^6.0.0"
+  }
+}
