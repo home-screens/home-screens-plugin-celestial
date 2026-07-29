@@ -1,7 +1,7 @@
 {
   "id": "celestial",
   "name": "Celestial Tracker",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Beautiful sun and moon tracker with dynamic sky arc, moon phase visualization, and real-time celestial data. All calculations are client-side — no API key required.",
   "author": "home-screens",
   "license": "MIT",

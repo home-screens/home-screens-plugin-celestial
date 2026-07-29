@@ -1,6 +1,6 @@
 {
   "name": "hs-plugin-celestial",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Celestial tracker plugin for Home Screens — sun/moon tracking with dynamic sky arc, NASA moon photo, and real-time astronomical data",
   "license": "MIT",
   "scripts": {
