@@ -2,6 +2,10 @@
 
 A plugin for [Home Screens](https://homescreens.dev) — the open-source smart display system for Raspberry Pi — that displays a beautiful astronomical dashboard with real-time sun and moon tracking.
 
+| Full view | Compact view |
+|---|---|
+| ![Sky arc with the sun and moon paths above the moon and sun detail sections](screenshots/full.webp) | ![Moon and sun details without the sky arc](screenshots/compact.webp) |
+
 ## Features
 
 - **Dynamic sky arc** with smooth Catmull-Rom bezier paths showing sun and moon trajectories over 24 hours
